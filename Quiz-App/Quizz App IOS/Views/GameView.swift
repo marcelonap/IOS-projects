@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
     let question = Question(questionText: "What was the first computer bug",
     possibleAnswers:["Ant","Beetle","Moth","FLy"],   correctAnswerIndex: 2)
     
@@ -43,32 +43,11 @@ struct ContentView: View {
                 }
             }
         }.foregroundColor(.white)
-//        VStack {
-//            Image(systemName:"flame")
-//                .aspectRatio(contentMode: .fill)
-//                .imageScale(.large)
-//                .foregroundColor(.purple)
-//            Text("Hello World!")
-//                .font(.largeTitle)
-//                .fontWeight(.semibold)
-//                .foregroundColor(Color.yellow)
-//            Button("Button title") {
-//                print("Button tapped! \(count)");
-//                count = count + 1;
-//            }
-//            .padding(.all, 2.0)
-//            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
-//            .cornerRadius(/*@START_MENU_TOKEN@*/9.0/*@END_MENU_TOKEN@*/)
-//            Text("Button clicked: \(count) times");
-//
-//        }
-//       .padding()
-//        .frame(width: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/)
    }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GameView()
     }
 }
