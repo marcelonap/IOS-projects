@@ -11,40 +11,27 @@ struct GameView: View {
     let question = Question(questionText: "What was the first computer bug",
     possibleAnswers:["Ant","Beetle","Moth","FLy"],   correctAnswerIndex: 2)
     
-    @State var mainColor = GameColor.main
-
+    //@State var mainColor = GameColor.main
+    @StateObject var viewModel = GameViewModel()
+    
     var body: some View {
-        ZStack{
-            mainColor.ignoresSafeArea()
-            VStack{
-                Text("1/10")
-                    .font(.callout)
-                    .multilineTextAlignment(.leading)
-                    .padding()
-                Text(question.questionText)
-                    .font(.largeTitle)
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                HStack{
-                    ForEach(0..<question.possibleAnswers.count) { answerIndex in
-                      // Define the view that will be returned for each index
-                        Button(action: {
-                          print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
-                            if answerIndex == question.correctAnswerIndex{
-                                mainColor = GameColor.correctGuess
-                            }else{
-                                mainColor = GameColor.incorrectGuess
-                            }
-                        }, label: {
-                          ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
-                        })
-                    }
-                }
-            }
-        }.foregroundColor(.white)
-   }
+        ZStack {
+          GameColor.main.ignoresSafeArea()
+          VStack {
+            Text(viewModel.questionProgressText)
+              .font(.callout)
+              .multilineTextAlignment(.leading)
+              .padding()
+            QuestionView(question: viewModel.currentQuestion)
+          }
+        }
+        .foregroundColor(.white)
+        .navigationBarBackButtonHidden(true)
+        .environmentObject(viewModel)
+      }
 }
+   
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

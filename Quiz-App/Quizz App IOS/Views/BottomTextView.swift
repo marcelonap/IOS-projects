@@ -11,6 +11,7 @@ struct BottomTextView: View {
     let str: String
     
     var body: some View {
+        
         HStack{
             Spacer()
             Text(str)

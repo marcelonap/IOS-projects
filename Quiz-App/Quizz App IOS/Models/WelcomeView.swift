@@ -25,7 +25,7 @@ struct WelcomeView: View {
                             .padding()
                     }
                     Spacer()
-                    NavigationLink(destination: ContentView(), label:{
+                    NavigationLink(destination: GameView(), label:{
                         BottomTextView(str: "Let's go!")
                     } )
                 }
