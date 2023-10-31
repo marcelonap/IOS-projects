@@ -22,6 +22,7 @@
 		9CBD8A132AEB359F00E9EF86 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD8A122AEB359F00E9EF86 /* Game.swift */; };
 		9CD9CB632AF1B16100CF26B7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9CB622AF1B16100CF26B7 /* GameViewModel.swift */; };
 		9CD9CB652AF1B38B00CF26B7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9CB642AF1B38B00CF26B7 /* QuestionView.swift */; };
+		9CD9CB672AF1C32600CF26B7 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9CB662AF1C32600CF26B7 /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9CBD8A122AEB359F00E9EF86 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		9CD9CB622AF1B16100CF26B7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		9CD9CB642AF1B38B00CF26B7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		9CD9CB662AF1C32600CF26B7 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				9C5E8D0B2AD25B9C00B5179D /* GameView.swift */,
 				9C07CBE22AE8AF2F00916376 /* ChoiceTextView.swift */,
 				9CD9CB642AF1B38B00CF26B7 /* QuestionView.swift */,
+				9CD9CB662AF1C32600CF26B7 /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				9CBD8A132AEB359F00E9EF86 /* Game.swift in Sources */,
 				9C5E8D0C2AD25B9C00B5179D /* GameView.swift in Sources */,
 				9C15EB2E2AEC20B400D76650 /* BottomTextView.swift in Sources */,
+				9CD9CB672AF1C32600CF26B7 /* ScoreView.swift in Sources */,
 				9C15EB2C2AEC1E3800D76650 /* GameColor.swift in Sources */,
 				9C07CBE32AE8AF2F00916376 /* ChoiceTextView.swift in Sources */,
 				9C5E8D0A2AD25B9C00B5179D /* Quizz_App_IOSApp.swift in Sources */,

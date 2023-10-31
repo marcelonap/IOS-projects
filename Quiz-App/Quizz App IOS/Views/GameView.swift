@@ -28,6 +28,12 @@ struct GameView: View {
         .foregroundColor(.white)
         .navigationBarBackButtonHidden(true)
         .environmentObject(viewModel)
+        .background(    //use this to change screens after connecting to crg
+        NavigationLink(destination: Text("Game Over"),
+                       isActive: .constant(viewModel.gameIsOver), //constant returns binding to a value
+                       label: {EmptyView()}
+                      )
+                    )
       }
 }
    

@@ -12,7 +12,6 @@ struct QuestionView: View {
     let question: Question
     
     var body: some View {
-    
             Text(question.questionText)
                 .font(.largeTitle)
                 .bold()
@@ -20,23 +19,24 @@ struct QuestionView: View {
             Spacer()
             HStack{
                 ForEach(0..<question.possibleAnswers.count) { answerIndex in
-                  // Define the view that will be returned for each index
+                    // Define the view that will be returned for each index
                     Button(action: {
-                      print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
+                        print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
                         viewModel.makeGuess(atIndex: answerIndex)
                     }) {
-                      ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
+                        ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                             .background(viewModel.color(forOptionIndex: answerIndex))
                     }
                     .disabled(viewModel.guessWasMade)
                 }
             }
-        if viewModel.guessWasMade{
-            
-            Button(action: {viewModel.displayNextScreen()}){
-                BottomTextView(str: "Next")
+            if viewModel.guessWasMade{
+                
+                Button(action: {viewModel.displayNextScreen()}){
+                    BottomTextView(str: "Next")
+                }
             }
-        }
+        
     }
 }
 
