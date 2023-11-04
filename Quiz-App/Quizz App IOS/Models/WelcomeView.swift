@@ -32,7 +32,7 @@ struct WelcomeView: View {
                 .foregroundColor(.white)
             }
             
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

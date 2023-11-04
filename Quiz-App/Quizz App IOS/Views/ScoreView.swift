@@ -9,6 +9,7 @@ import SwiftUI
 
 
 struct ScoreView: View {
+    let viewModel : ScoreViewModel
   var body: some View {
       ZStack {
          GameColor.main.ignoresSafeArea()
@@ -16,21 +17,31 @@ struct ScoreView: View {
            Spacer()
            Text("Final Score:")
              .font(.body)
-           Text("???%")
+             Text("\(viewModel.percentage)%")
              .font(.system(size: 50))
              .bold()
              .padding()
            Spacer()
            VStack {
-             Text("??? ✅")
-             Text("??? ❌")
+               Text("\(viewModel.correctGuesses) ✅")
+               Text("\(viewModel.incorrectGuesses) ❌")
            }.font(.system(size: 30))
            Spacer()
-           NavigationLink(
-             destination: GameView(),
-             label: {
-               BottomTextView(str: "Re-take Quiz")
-             })
+             HStack{
+                 NavigationLink(
+                    destination: GameView(),
+                    label: {
+                        BottomTextView(str: "Re-take Quiz")
+                    })
+                 Spacer()
+                 
+                 NavigationLink(
+                    destination: WelcomeView(),
+                    label: {
+                        BottomTextView(str: "Home")
+                    })
+             }
+             
          }
          .foregroundColor(.white)
          .navigationBarHidden(true)
@@ -38,6 +49,8 @@ struct ScoreView: View {
   }
 }
 
-#Preview {
-    ScoreView()
+struct ScoreView_Previews: PreviewProvider {
+  static var previews: some View {
+    ScoreView(viewModel: ScoreViewModel(correctGuesses: 8, incorrectGuesses: 2))
+  }
 }
