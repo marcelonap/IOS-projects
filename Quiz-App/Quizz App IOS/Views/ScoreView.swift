@@ -41,6 +41,7 @@ struct ScoreView: View {
                         BottomTextView(str: "Home")
                     })
              }
+            
              
          }
          .foregroundColor(.white)

@@ -18,7 +18,7 @@ struct WelcomeView: View {
                 VStack{
                     Spacer()
                     VStack(alignment: .leading, spacing: 0){
-                        Text("Select the correct answers to the following questions. This is in my IOS projects repo as it's own folder!")
+                        Text("Select the correct answers to the following questions! This is my first IOS project!")
                             .font(.largeTitle)
                             .bold()
                             .multilineTextAlignment(.leading)
