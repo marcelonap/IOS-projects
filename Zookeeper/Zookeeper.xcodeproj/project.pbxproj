@@ -7,30 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C00BBDC2B02D870006615DD /* CookcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00BBDB2B02D870006615DD /* CookcademyApp.swift */; };
-		9C00BBDE2B02D870006615DD /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00BBDD2B02D870006615DD /* RecipesListView.swift */; };
-		9C00BBE02B02D871006615DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C00BBDF2B02D871006615DD /* Assets.xcassets */; };
-		9C00BBE32B02D871006615DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C00BBE22B02D871006615DD /* Preview Assets.xcassets */; };
-		9C00BBEB2B02D90A006615DD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00BBEA2B02D90A006615DD /* Recipe.swift */; };
-		9C3D67E82B0ADEC1001FD981 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D67E72B0ADEC1001FD981 /* RecipeData.swift */; };
-		9C3D67EA2B0AE117001FD981 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D67E92B0AE117001FD981 /* RecipeDetailView.swift */; };
-		9C3D67EC2B0B04B0001FD981 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D67EB2B0B04B0001FD981 /* AppColor.swift */; };
+		9C3D67D82B0AD3BF001FD981 /* ZookeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D67D72B0AD3BF001FD981 /* ZookeeperApp.swift */; };
+		9C3D67DA2B0AD3BF001FD981 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D67D92B0AD3BF001FD981 /* ContentView.swift */; };
+		9C3D67DC2B0AD3C0001FD981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3D67DB2B0AD3C0001FD981 /* Assets.xcassets */; };
+		9C3D67DF2B0AD3C0001FD981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3D67DE2B0AD3C0001FD981 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C00BBD82B02D870006615DD /* Cookcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C00BBDB2B02D870006615DD /* CookcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyApp.swift; sourceTree = "<group>"; };
-		9C00BBDD2B02D870006615DD /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
-		9C00BBDF2B02D871006615DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C00BBE22B02D871006615DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9C00BBEA2B02D90A006615DD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		9C3D67E72B0ADEC1001FD981 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
-		9C3D67E92B0AE117001FD981 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
-		9C3D67EB2B0B04B0001FD981 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		9C3D67D42B0AD3BF001FD981 /* Zookeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zookeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3D67D72B0AD3BF001FD981 /* ZookeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZookeeperApp.swift; sourceTree = "<group>"; };
+		9C3D67D92B0AD3BF001FD981 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C3D67DB2B0AD3C0001FD981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C3D67DE2B0AD3C0001FD981 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C00BBD52B02D870006615DD /* Frameworks */ = {
+		9C3D67D12B0AD3BF001FD981 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,105 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C00BBCF2B02D870006615DD = {
+		9C3D67CB2B0AD3BF001FD981 = {
 			isa = PBXGroup;
 			children = (
-				9C00BBDA2B02D870006615DD /* Cookcademy */,
-				9C00BBD92B02D870006615DD /* Products */,
+				9C3D67D62B0AD3BF001FD981 /* Zookeeper */,
+				9C3D67D52B0AD3BF001FD981 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9C00BBD92B02D870006615DD /* Products */ = {
+		9C3D67D52B0AD3BF001FD981 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C00BBD82B02D870006615DD /* Cookcademy.app */,
+				9C3D67D42B0AD3BF001FD981 /* Zookeeper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C00BBDA2B02D870006615DD /* Cookcademy */ = {
+		9C3D67D62B0AD3BF001FD981 /* Zookeeper */ = {
 			isa = PBXGroup;
 			children = (
-				9C3D67E62B0ADCEF001FD981 /* ViewModels */,
-				9C3D67E52B0ADCE8001FD981 /* Views */,
-				9C00BBE92B02D8EF006615DD /* Models */,
-				9C00BBDB2B02D870006615DD /* CookcademyApp.swift */,
-				9C00BBDF2B02D871006615DD /* Assets.xcassets */,
-				9C00BBE12B02D871006615DD /* Preview Content */,
+				9C3D67D72B0AD3BF001FD981 /* ZookeeperApp.swift */,
+				9C3D67D92B0AD3BF001FD981 /* ContentView.swift */,
+				9C3D67DB2B0AD3C0001FD981 /* Assets.xcassets */,
+				9C3D67DD2B0AD3C0001FD981 /* Preview Content */,
 			);
-			path = Cookcademy;
+			path = Zookeeper;
 			sourceTree = "<group>";
 		};
-		9C00BBE12B02D871006615DD /* Preview Content */ = {
+		9C3D67DD2B0AD3C0001FD981 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9C00BBE22B02D871006615DD /* Preview Assets.xcassets */,
+				9C3D67DE2B0AD3C0001FD981 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9C00BBE92B02D8EF006615DD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				9C00BBEA2B02D90A006615DD /* Recipe.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9C3D67E52B0ADCE8001FD981 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				9C00BBDD2B02D870006615DD /* RecipesListView.swift */,
-				9C3D67E92B0AE117001FD981 /* RecipeDetailView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		9C3D67E62B0ADCEF001FD981 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				9C3D67E72B0ADEC1001FD981 /* RecipeData.swift */,
-				9C3D67EB2B0B04B0001FD981 /* AppColor.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C00BBD72B02D870006615DD /* Cookcademy */ = {
+		9C3D67D32B0AD3BF001FD981 /* Zookeeper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C00BBE62B02D871006615DD /* Build configuration list for PBXNativeTarget "Cookcademy" */;
+			buildConfigurationList = 9C3D67E22B0AD3C0001FD981 /* Build configuration list for PBXNativeTarget "Zookeeper" */;
 			buildPhases = (
-				9C00BBD42B02D870006615DD /* Sources */,
-				9C00BBD52B02D870006615DD /* Frameworks */,
-				9C00BBD62B02D870006615DD /* Resources */,
+				9C3D67D02B0AD3BF001FD981 /* Sources */,
+				9C3D67D12B0AD3BF001FD981 /* Frameworks */,
+				9C3D67D22B0AD3BF001FD981 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cookcademy;
-			productName = Cookcademy;
-			productReference = 9C00BBD82B02D870006615DD /* Cookcademy.app */;
+			name = Zookeeper;
+			productName = Zookeeper;
+			productReference = 9C3D67D42B0AD3BF001FD981 /* Zookeeper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9C00BBD02B02D870006615DD /* Project object */ = {
+		9C3D67CC2B0AD3BF001FD981 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					9C00BBD72B02D870006615DD = {
+					9C3D67D32B0AD3BF001FD981 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 9C00BBD32B02D870006615DD /* Build configuration list for PBXProject "Cookcademy" */;
+			buildConfigurationList = 9C3D67CF2B0AD3BF001FD981 /* Build configuration list for PBXProject "Zookeeper" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,46 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 9C00BBCF2B02D870006615DD;
-			productRefGroup = 9C00BBD92B02D870006615DD /* Products */;
+			mainGroup = 9C3D67CB2B0AD3BF001FD981;
+			productRefGroup = 9C3D67D52B0AD3BF001FD981 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C00BBD72B02D870006615DD /* Cookcademy */,
+				9C3D67D32B0AD3BF001FD981 /* Zookeeper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C00BBD62B02D870006615DD /* Resources */ = {
+		9C3D67D22B0AD3BF001FD981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C00BBE32B02D871006615DD /* Preview Assets.xcassets in Resources */,
-				9C00BBE02B02D871006615DD /* Assets.xcassets in Resources */,
+				9C3D67DF2B0AD3C0001FD981 /* Preview Assets.xcassets in Resources */,
+				9C3D67DC2B0AD3C0001FD981 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C00BBD42B02D870006615DD /* Sources */ = {
+		9C3D67D02B0AD3BF001FD981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C00BBEB2B02D90A006615DD /* Recipe.swift in Sources */,
-				9C3D67EA2B0AE117001FD981 /* RecipeDetailView.swift in Sources */,
-				9C3D67E82B0ADEC1001FD981 /* RecipeData.swift in Sources */,
-				9C00BBDE2B02D870006615DD /* RecipesListView.swift in Sources */,
-				9C00BBDC2B02D870006615DD /* CookcademyApp.swift in Sources */,
-				9C3D67EC2B0B04B0001FD981 /* AppColor.swift in Sources */,
+				9C3D67DA2B0AD3BF001FD981 /* ContentView.swift in Sources */,
+				9C3D67D82B0AD3BF001FD981 /* ZookeeperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9C00BBE42B02D871006615DD /* Debug */ = {
+		9C3D67E02B0AD3C0001FD981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		9C00BBE52B02D871006615DD /* Release */ = {
+		9C3D67E12B0AD3C0001FD981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,15 +264,14 @@
 			};
 			name = Release;
 		};
-		9C00BBE72B02D871006615DD /* Debug */ = {
+		9C3D67E32B0AD3C0001FD981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Cookcademy/Preview Content\"";
-				DEVELOPMENT_TEAM = 7QA45VJU6L;
+				DEVELOPMENT_ASSET_PATHS = "\"Zookeeper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,13 +279,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.Cookcademy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.Zookeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,15 +292,14 @@
 			};
 			name = Debug;
 		};
-		9C00BBE82B02D871006615DD /* Release */ = {
+		9C3D67E42B0AD3C0001FD981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Cookcademy/Preview Content\"";
-				DEVELOPMENT_TEAM = 7QA45VJU6L;
+				DEVELOPMENT_ASSET_PATHS = "\"Zookeeper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -350,13 +307,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.Cookcademy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.Zookeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -367,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C00BBD32B02D870006615DD /* Build configuration list for PBXProject "Cookcademy" */ = {
+		9C3D67CF2B0AD3BF001FD981 /* Build configuration list for PBXProject "Zookeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C00BBE42B02D871006615DD /* Debug */,
-				9C00BBE52B02D871006615DD /* Release */,
+				9C3D67E02B0AD3C0001FD981 /* Debug */,
+				9C3D67E12B0AD3C0001FD981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C00BBE62B02D871006615DD /* Build configuration list for PBXNativeTarget "Cookcademy" */ = {
+		9C3D67E22B0AD3C0001FD981 /* Build configuration list for PBXNativeTarget "Zookeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C00BBE72B02D871006615DD /* Debug */,
-				9C00BBE82B02D871006615DD /* Release */,
+				9C3D67E32B0AD3C0001FD981 /* Debug */,
+				9C3D67E42B0AD3C0001FD981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9C00BBD02B02D870006615DD /* Project object */;
+	rootObject = 9C3D67CC2B0AD3BF001FD981 /* Project object */;
 }

@@ -30,7 +30,7 @@ struct GameView: View {
         .environmentObject(viewModel)
         .background(    //use this to change screens after connecting to crg
             NavigationLink(destination: ScoreView(viewModel: ScoreViewModel(correctGuesses: viewModel.correctGuesses, incorrectGuesses: viewModel.incorrectGuesses)),
-                       isActive: .constant(viewModel.gameIsOver), //constant returns binding to a value
+                       isActive: .constant(viewModel.gameIsOver), //constantisl returns binding to a value
                        label: {EmptyView()}
                       )
                     )

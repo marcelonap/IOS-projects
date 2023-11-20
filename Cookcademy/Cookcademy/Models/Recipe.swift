@@ -6,8 +6,10 @@
 //
 
 import Foundation
-
-struct Recipe {
+// Recipe struct
+struct Recipe : Identifiable {
+  var id  =  UUID()
+    
   var mainInformation: MainInformation
   var ingredients: [Ingredient]
   var directions: [Direction]
@@ -24,7 +26,7 @@ struct Recipe {
                   directions: [])
       }
 }
-
+// Main Information struct
 struct MainInformation {
   var name: String
   var description: String
@@ -38,9 +40,11 @@ struct MainInformation {
         case dessert = "Dessert"
     }
 }
+// Ingredient struct
 
-
-struct Ingredient {
+struct Ingredient : Identifiable {
+    var id = UUID()
+    
     var name:String
     var quantity: Double
     var unit: Unit
@@ -72,12 +76,14 @@ struct Ingredient {
     }
 }
 
+// Direction struct
 struct Direction {
+    
   var description: String
   var isOptional: Bool
 }
 
-
+//Extends recipe with list of test values
 extension Recipe {
   static let testRecipes: [Recipe] = [
     Recipe(mainInformation: MainInformation(name: "Dad's Mashed Potatoes",
