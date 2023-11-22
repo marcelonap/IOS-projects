@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BLETestApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+  //  @Environment(\.scenePhase) private var scenePhase
+
+       var body: some Scene {
+           WindowGroup {
+               ContentView()
+           }
+       }
+   }
+
+
