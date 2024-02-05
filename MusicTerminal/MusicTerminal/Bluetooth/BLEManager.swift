@@ -1,16 +1,17 @@
 //
 //  BLEManager.swift
-//  RobotControl
+//  MusicTerminal
 //
-//  Created by Marcelo Napoleao Sampaio on 2023-12-15.
+//  Created by Marcelo Napoleao Sampaio on 2024-02-04.
 //
+
 
 
 import Foundation
 import SwiftUI
 import CoreBluetooth
 
-class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDelegate {
+class BluetoothManager:  NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     @Published var peripherals: [CBPeripheral] = []
 
     private var centralManager: CBCentralManager!
@@ -19,24 +20,15 @@ class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CB
     
     @Published var canScan: Bool = false
     
-    let txUART : String = "49535343-1E4D-4BD9-BA61-23C647249616"
+    let rxUART : String = "ABF1"
     
-    let rxUART : String = "49535343-8841-43F4-A8D4-ECBE34729BB3"
+    let txUART : String = "ABF2"
     
-    let TUART : String = "49535343-FE7D-4AE5-8FA9-9FAFD205E455"
-    
-    let ROBOT: String = "D973f2E2-B19E-11E2-9E96-0800200C9A66" // todo
-    
-    
-    
+    let TUART : String = "ABF0"
     
     var rx: CBCharacteristic?
     
-    var RobotChar : CBCharacteristic?
-    
     var device : CBPeripheral?
-    
-    
     
     var central : CBCentralManager {
         centralManager
@@ -44,20 +36,11 @@ class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CB
 
     override init() {
         super.init()
-        self.centralManager = CBCentralManager(delegate: self, queue: nil, options: [CBCentralManagerOptionRestoreIdentifierKey: "com.ios.agragps"])
+        self.centralManager = CBCentralManager(delegate: self, queue: nil, options: [CBCentralManagerOptionRestoreIdentifierKey: "com.ios.musicterminal"])
     }
     
     func writeToRx(_ message : String) ->  Bool {
         guard let characteristic = rx else {return false}
-        guard let peripheral = device else {return false}
-        guard let data = message.data(using: .utf8) else {return false}
-        
-        peripheral.writeValue(data, for: characteristic, type: .withResponse)
-        return true
-    }
-    
-    func writeToRobot(_ message : String) ->  Bool {
-        guard let characteristic = RobotChar else {return false}
         guard let peripheral = device else {return false}
         guard let data = message.data(using: .utf8) else {return false}
         
@@ -87,6 +70,7 @@ class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CB
 
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String: Any], rssi RSSI: NSNumber) {
         // Check if the peripheral is not already in the list
+        
         if !peripherals.contains(peripheral) {
             peripherals.append(peripheral)
         }
@@ -132,10 +116,6 @@ class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CB
                 if characteristic.uuid.uuidString == txUART {
                     print("tx found")
                     peripheral.setNotifyValue(true, for: characteristic)
-                }
-                
-                if characteristic.uuid.uuidString == ROBOT{
-                    RobotChar = characteristic
                 }
             }
 

@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C33C9492B0E36A0008789D3 /* BLEConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C33C9482B0E36A0008789D3 /* BLEConnectionManager.swift */; };
-		9CD1F9B32B0B246400E10E86 /* BLETestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F9B22B0B246400E10E86 /* BLETestApp.swift */; };
-		9CD1F9B52B0B246400E10E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F9B42B0B246400E10E86 /* ContentView.swift */; };
-		9CD1F9B72B0B246400E10E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD1F9B62B0B246400E10E86 /* Assets.xcassets */; };
-		9CD1F9BA2B0B246400E10E86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD1F9B92B0B246400E10E86 /* Preview Assets.xcassets */; };
-		9CD1F9C42B0B246400E10E86 /* BLETestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F9C32B0B246400E10E86 /* BLETestTests.swift */; };
-		9CD1F9CE2B0B246400E10E86 /* BLETestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F9CD2B0B246400E10E86 /* BLETestUITests.swift */; };
-		9CD1F9D02B0B246400E10E86 /* BLETestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F9CF2B0B246400E10E86 /* BLETestUITestsLaunchTests.swift */; };
-		9CDB25AD2B4779AE00492C53 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDB25AC2B4779AE00492C53 /* LoginView.swift */; };
-		9CDB25B02B4779F300492C53 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDB25AF2B4779F300492C53 /* LoginViewModel.swift */; };
+		9C918EB42B706FC1004AD276 /* MusicTerminalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EB32B706FC1004AD276 /* MusicTerminalApp.swift */; };
+		9C918EBA2B706FC2004AD276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C918EB92B706FC2004AD276 /* Assets.xcassets */; };
+		9C918EBD2B706FC2004AD276 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C918EBC2B706FC2004AD276 /* Preview Assets.xcassets */; };
+		9C918EC72B706FC2004AD276 /* MusicTerminalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EC62B706FC2004AD276 /* MusicTerminalTests.swift */; };
+		9C918ED12B706FC2004AD276 /* MusicTerminalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918ED02B706FC2004AD276 /* MusicTerminalUITests.swift */; };
+		9C918ED32B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918ED22B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift */; };
+		9C918EE02B7070C6004AD276 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EDF2B7070C6004AD276 /* InitialScreen.swift */; };
+		9C918EE32B707118004AD276 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EE22B707118004AD276 /* BLEManager.swift */; };
+		9C92B2752B707921004C230A /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92B2742B707921004C230A /* TerminalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9CD1F9C02B0B246400E10E86 /* PBXContainerItemProxy */ = {
+		9C918EC32B706FC2004AD276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CD1F9A72B0B246400E10E86 /* Project object */;
+			containerPortal = 9C918EA82B706FC1004AD276 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CD1F9AE2B0B246400E10E86;
-			remoteInfo = BLETest;
+			remoteGlobalIDString = 9C918EAF2B706FC1004AD276;
+			remoteInfo = MusicTerminal;
 		};
-		9CD1F9CA2B0B246400E10E86 /* PBXContainerItemProxy */ = {
+		9C918ECD2B706FC2004AD276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CD1F9A72B0B246400E10E86 /* Project object */;
+			containerPortal = 9C918EA82B706FC1004AD276 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CD1F9AE2B0B246400E10E86;
-			remoteInfo = BLETest;
+			remoteGlobalIDString = 9C918EAF2B706FC1004AD276;
+			remoteInfo = MusicTerminal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C33C9482B0E36A0008789D3 /* BLEConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEConnectionManager.swift; sourceTree = "<group>"; };
-		9CD1F9AF2B0B246400E10E86 /* BLETest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLETest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD1F9B22B0B246400E10E86 /* BLETestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETestApp.swift; sourceTree = "<group>"; };
-		9CD1F9B42B0B246400E10E86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9CD1F9B62B0B246400E10E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CD1F9B92B0B246400E10E86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9CD1F9BF2B0B246400E10E86 /* BLETestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD1F9C32B0B246400E10E86 /* BLETestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETestTests.swift; sourceTree = "<group>"; };
-		9CD1F9C92B0B246400E10E86 /* BLETestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD1F9CD2B0B246400E10E86 /* BLETestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETestUITests.swift; sourceTree = "<group>"; };
-		9CD1F9CF2B0B246400E10E86 /* BLETestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9CD1F9DC2B0B29DE00E10E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		9CDB25AC2B4779AE00492C53 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../LoginView.swift; sourceTree = "<group>"; };
-		9CDB25AF2B4779F300492C53 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9C918EB02B706FC1004AD276 /* MusicTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C918EB32B706FC1004AD276 /* MusicTerminalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalApp.swift; sourceTree = "<group>"; };
+		9C918EB92B706FC2004AD276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C918EBC2B706FC2004AD276 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C918EC22B706FC2004AD276 /* MusicTerminalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTerminalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C918EC62B706FC2004AD276 /* MusicTerminalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalTests.swift; sourceTree = "<group>"; };
+		9C918ECC2B706FC2004AD276 /* MusicTerminalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTerminalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C918ED02B706FC2004AD276 /* MusicTerminalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalUITests.swift; sourceTree = "<group>"; };
+		9C918ED22B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C918EDF2B7070C6004AD276 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
+		9C918EE22B707118004AD276 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		9C918EE42B7071C5004AD276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9C92B2742B707921004C230A /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9CD1F9AC2B0B246400E10E86 /* Frameworks */ = {
+		9C918EAD2B706FC1004AD276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD1F9BC2B0B246400E10E86 /* Frameworks */ = {
+		9C918EBF2B706FC2004AD276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD1F9C62B0B246400E10E86 /* Frameworks */ = {
+		9C918EC92B706FC2004AD276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,162 +76,153 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C33C9472B0E3687008789D3 /* BLE */ = {
+		9C918EA72B706FC1004AD276 = {
 			isa = PBXGroup;
 			children = (
-				9C33C9482B0E36A0008789D3 /* BLEConnectionManager.swift */,
-			);
-			path = BLE;
-			sourceTree = "<group>";
-		};
-		9CD1F9A62B0B246400E10E86 = {
-			isa = PBXGroup;
-			children = (
-				9CD1F9B12B0B246400E10E86 /* BLETest */,
-				9CD1F9C22B0B246400E10E86 /* BLETestTests */,
-				9CD1F9CC2B0B246400E10E86 /* BLETestUITests */,
-				9CD1F9B02B0B246400E10E86 /* Products */,
+				9C918EB22B706FC1004AD276 /* MusicTerminal */,
+				9C918EC52B706FC2004AD276 /* MusicTerminalTests */,
+				9C918ECF2B706FC2004AD276 /* MusicTerminalUITests */,
+				9C918EB12B706FC1004AD276 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9CD1F9B02B0B246400E10E86 /* Products */ = {
+		9C918EB12B706FC1004AD276 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CD1F9AF2B0B246400E10E86 /* BLETest.app */,
-				9CD1F9BF2B0B246400E10E86 /* BLETestTests.xctest */,
-				9CD1F9C92B0B246400E10E86 /* BLETestUITests.xctest */,
+				9C918EB02B706FC1004AD276 /* MusicTerminal.app */,
+				9C918EC22B706FC2004AD276 /* MusicTerminalTests.xctest */,
+				9C918ECC2B706FC2004AD276 /* MusicTerminalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CD1F9B12B0B246400E10E86 /* BLETest */ = {
+		9C918EB22B706FC1004AD276 /* MusicTerminal */ = {
 			isa = PBXGroup;
 			children = (
-				9CDB25AE2B4779E400492C53 /* Login */,
-				9C33C9472B0E3687008789D3 /* BLE */,
-				9CD1F9DC2B0B29DE00E10E86 /* Info.plist */,
-				9CD1F9B22B0B246400E10E86 /* BLETestApp.swift */,
-				9CDB25AC2B4779AE00492C53 /* LoginView.swift */,
-				9CD1F9B42B0B246400E10E86 /* ContentView.swift */,
-				9CD1F9B62B0B246400E10E86 /* Assets.xcassets */,
-				9CD1F9B82B0B246400E10E86 /* Preview Content */,
+				9C918EE42B7071C5004AD276 /* Info.plist */,
+				9C918EE12B70710A004AD276 /* Bluetooth */,
+				9C918EDF2B7070C6004AD276 /* InitialScreen.swift */,
+				9C92B2742B707921004C230A /* TerminalView.swift */,
+				9C918EB32B706FC1004AD276 /* MusicTerminalApp.swift */,
+				9C918EB92B706FC2004AD276 /* Assets.xcassets */,
+				9C918EBB2B706FC2004AD276 /* Preview Content */,
 			);
-			path = BLETest;
+			path = MusicTerminal;
 			sourceTree = "<group>";
 		};
-		9CD1F9B82B0B246400E10E86 /* Preview Content */ = {
+		9C918EBB2B706FC2004AD276 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9CD1F9B92B0B246400E10E86 /* Preview Assets.xcassets */,
+				9C918EBC2B706FC2004AD276 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9CD1F9C22B0B246400E10E86 /* BLETestTests */ = {
+		9C918EC52B706FC2004AD276 /* MusicTerminalTests */ = {
 			isa = PBXGroup;
 			children = (
-				9CD1F9C32B0B246400E10E86 /* BLETestTests.swift */,
+				9C918EC62B706FC2004AD276 /* MusicTerminalTests.swift */,
 			);
-			path = BLETestTests;
+			path = MusicTerminalTests;
 			sourceTree = "<group>";
 		};
-		9CD1F9CC2B0B246400E10E86 /* BLETestUITests */ = {
+		9C918ECF2B706FC2004AD276 /* MusicTerminalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9CD1F9CD2B0B246400E10E86 /* BLETestUITests.swift */,
-				9CD1F9CF2B0B246400E10E86 /* BLETestUITestsLaunchTests.swift */,
+				9C918ED02B706FC2004AD276 /* MusicTerminalUITests.swift */,
+				9C918ED22B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift */,
 			);
-			path = BLETestUITests;
+			path = MusicTerminalUITests;
 			sourceTree = "<group>";
 		};
-		9CDB25AE2B4779E400492C53 /* Login */ = {
+		9C918EE12B70710A004AD276 /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				9CDB25AF2B4779F300492C53 /* LoginViewModel.swift */,
+				9C918EE22B707118004AD276 /* BLEManager.swift */,
 			);
-			path = Login;
+			path = Bluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CD1F9AE2B0B246400E10E86 /* BLETest */ = {
+		9C918EAF2B706FC1004AD276 /* MusicTerminal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD1F9D32B0B246400E10E86 /* Build configuration list for PBXNativeTarget "BLETest" */;
+			buildConfigurationList = 9C918ED62B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminal" */;
 			buildPhases = (
-				9CD1F9AB2B0B246400E10E86 /* Sources */,
-				9CD1F9AC2B0B246400E10E86 /* Frameworks */,
-				9CD1F9AD2B0B246400E10E86 /* Resources */,
+				9C918EAC2B706FC1004AD276 /* Sources */,
+				9C918EAD2B706FC1004AD276 /* Frameworks */,
+				9C918EAE2B706FC1004AD276 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BLETest;
-			productName = BLETest;
-			productReference = 9CD1F9AF2B0B246400E10E86 /* BLETest.app */;
+			name = MusicTerminal;
+			productName = MusicTerminal;
+			productReference = 9C918EB02B706FC1004AD276 /* MusicTerminal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9CD1F9BE2B0B246400E10E86 /* BLETestTests */ = {
+		9C918EC12B706FC2004AD276 /* MusicTerminalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD1F9D62B0B246400E10E86 /* Build configuration list for PBXNativeTarget "BLETestTests" */;
+			buildConfigurationList = 9C918ED92B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalTests" */;
 			buildPhases = (
-				9CD1F9BB2B0B246400E10E86 /* Sources */,
-				9CD1F9BC2B0B246400E10E86 /* Frameworks */,
-				9CD1F9BD2B0B246400E10E86 /* Resources */,
+				9C918EBE2B706FC2004AD276 /* Sources */,
+				9C918EBF2B706FC2004AD276 /* Frameworks */,
+				9C918EC02B706FC2004AD276 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9CD1F9C12B0B246400E10E86 /* PBXTargetDependency */,
+				9C918EC42B706FC2004AD276 /* PBXTargetDependency */,
 			);
-			name = BLETestTests;
-			productName = BLETestTests;
-			productReference = 9CD1F9BF2B0B246400E10E86 /* BLETestTests.xctest */;
+			name = MusicTerminalTests;
+			productName = MusicTerminalTests;
+			productReference = 9C918EC22B706FC2004AD276 /* MusicTerminalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CD1F9C82B0B246400E10E86 /* BLETestUITests */ = {
+		9C918ECB2B706FC2004AD276 /* MusicTerminalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD1F9D92B0B246400E10E86 /* Build configuration list for PBXNativeTarget "BLETestUITests" */;
+			buildConfigurationList = 9C918EDC2B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalUITests" */;
 			buildPhases = (
-				9CD1F9C52B0B246400E10E86 /* Sources */,
-				9CD1F9C62B0B246400E10E86 /* Frameworks */,
-				9CD1F9C72B0B246400E10E86 /* Resources */,
+				9C918EC82B706FC2004AD276 /* Sources */,
+				9C918EC92B706FC2004AD276 /* Frameworks */,
+				9C918ECA2B706FC2004AD276 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9CD1F9CB2B0B246400E10E86 /* PBXTargetDependency */,
+				9C918ECE2B706FC2004AD276 /* PBXTargetDependency */,
 			);
-			name = BLETestUITests;
-			productName = BLETestUITests;
-			productReference = 9CD1F9C92B0B246400E10E86 /* BLETestUITests.xctest */;
+			name = MusicTerminalUITests;
+			productName = MusicTerminalUITests;
+			productReference = 9C918ECC2B706FC2004AD276 /* MusicTerminalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9CD1F9A72B0B246400E10E86 /* Project object */ = {
+		9C918EA82B706FC1004AD276 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					9CD1F9AE2B0B246400E10E86 = {
-						CreatedOnToolsVersion = 15.0.1;
+					9C918EAF2B706FC1004AD276 = {
+						CreatedOnToolsVersion = 15.2;
 					};
-					9CD1F9BE2B0B246400E10E86 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 9CD1F9AE2B0B246400E10E86;
+					9C918EC12B706FC2004AD276 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9C918EAF2B706FC1004AD276;
 					};
-					9CD1F9C82B0B246400E10E86 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 9CD1F9AE2B0B246400E10E86;
+					9C918ECB2B706FC2004AD276 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9C918EAF2B706FC1004AD276;
 					};
 				};
 			};
-			buildConfigurationList = 9CD1F9AA2B0B246400E10E86 /* Build configuration list for PBXProject "BLETest" */;
+			buildConfigurationList = 9C918EAB2B706FC1004AD276 /* Build configuration list for PBXProject "MusicTerminal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,36 +230,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 9CD1F9A62B0B246400E10E86;
-			productRefGroup = 9CD1F9B02B0B246400E10E86 /* Products */;
+			mainGroup = 9C918EA72B706FC1004AD276;
+			productRefGroup = 9C918EB12B706FC1004AD276 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CD1F9AE2B0B246400E10E86 /* BLETest */,
-				9CD1F9BE2B0B246400E10E86 /* BLETestTests */,
-				9CD1F9C82B0B246400E10E86 /* BLETestUITests */,
+				9C918EAF2B706FC1004AD276 /* MusicTerminal */,
+				9C918EC12B706FC2004AD276 /* MusicTerminalTests */,
+				9C918ECB2B706FC2004AD276 /* MusicTerminalUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9CD1F9AD2B0B246400E10E86 /* Resources */ = {
+		9C918EAE2B706FC1004AD276 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD1F9BA2B0B246400E10E86 /* Preview Assets.xcassets in Resources */,
-				9CD1F9B72B0B246400E10E86 /* Assets.xcassets in Resources */,
+				9C918EBD2B706FC2004AD276 /* Preview Assets.xcassets in Resources */,
+				9C918EBA2B706FC2004AD276 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD1F9BD2B0B246400E10E86 /* Resources */ = {
+		9C918EC02B706FC2004AD276 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD1F9C72B0B246400E10E86 /* Resources */ = {
+		9C918ECA2B706FC2004AD276 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,52 +269,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9CD1F9AB2B0B246400E10E86 /* Sources */ = {
+		9C918EAC2B706FC1004AD276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD1F9B52B0B246400E10E86 /* ContentView.swift in Sources */,
-				9C33C9492B0E36A0008789D3 /* BLEConnectionManager.swift in Sources */,
-				9CDB25AD2B4779AE00492C53 /* LoginView.swift in Sources */,
-				9CDB25B02B4779F300492C53 /* LoginViewModel.swift in Sources */,
-				9CD1F9B32B0B246400E10E86 /* BLETestApp.swift in Sources */,
+				9C92B2752B707921004C230A /* TerminalView.swift in Sources */,
+				9C918EE02B7070C6004AD276 /* InitialScreen.swift in Sources */,
+				9C918EE32B707118004AD276 /* BLEManager.swift in Sources */,
+				9C918EB42B706FC1004AD276 /* MusicTerminalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD1F9BB2B0B246400E10E86 /* Sources */ = {
+		9C918EBE2B706FC2004AD276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD1F9C42B0B246400E10E86 /* BLETestTests.swift in Sources */,
+				9C918EC72B706FC2004AD276 /* MusicTerminalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD1F9C52B0B246400E10E86 /* Sources */ = {
+		9C918EC82B706FC2004AD276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD1F9D02B0B246400E10E86 /* BLETestUITestsLaunchTests.swift in Sources */,
-				9CD1F9CE2B0B246400E10E86 /* BLETestUITests.swift in Sources */,
+				9C918ED32B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift in Sources */,
+				9C918ED12B706FC2004AD276 /* MusicTerminalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9CD1F9C12B0B246400E10E86 /* PBXTargetDependency */ = {
+		9C918EC42B706FC2004AD276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CD1F9AE2B0B246400E10E86 /* BLETest */;
-			targetProxy = 9CD1F9C02B0B246400E10E86 /* PBXContainerItemProxy */;
+			target = 9C918EAF2B706FC1004AD276 /* MusicTerminal */;
+			targetProxy = 9C918EC32B706FC2004AD276 /* PBXContainerItemProxy */;
 		};
-		9CD1F9CB2B0B246400E10E86 /* PBXTargetDependency */ = {
+		9C918ECE2B706FC2004AD276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CD1F9AE2B0B246400E10E86 /* BLETest */;
-			targetProxy = 9CD1F9CA2B0B246400E10E86 /* PBXContainerItemProxy */;
+			target = 9C918EAF2B706FC1004AD276 /* MusicTerminal */;
+			targetProxy = 9C918ECD2B706FC2004AD276 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9CD1F9D12B0B246400E10E86 /* Debug */ = {
+		9C918ED42B706FC2004AD276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -388,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		9CD1F9D22B0B246400E10E86 /* Release */ = {
+		9C918ED52B706FC2004AD276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -444,19 +432,20 @@
 			};
 			name = Release;
 		};
-		9CD1F9D42B0B246400E10E86 /* Debug */ = {
+		9C918ED72B706FC2004AD276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BLETest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MusicTerminal/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BLETest/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need to access bluetooth to discover and connect to nearby peripherals";
+				INFOPLIST_FILE = MusicTerminal/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Needs bluetooth access to interface with device";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Needs to connect and interact with BLE peripheral";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,7 +456,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.BLETest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,19 +464,20 @@
 			};
 			name = Debug;
 		};
-		9CD1F9D52B0B246400E10E86 /* Release */ = {
+		9C918ED82B706FC2004AD276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BLETest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MusicTerminal/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BLETest/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need to access bluetooth to discover and connect to nearby peripherals";
+				INFOPLIST_FILE = MusicTerminal/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Needs bluetooth access to interface with device";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Needs to connect and interact with BLE peripheral";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.BLETest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -506,118 +496,122 @@
 			};
 			name = Release;
 		};
-		9CD1F9D72B0B246400E10E86 /* Debug */ = {
+		9C918EDA2B706FC2004AD276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.BLETestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLETest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BLETest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicTerminal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicTerminal";
 			};
 			name = Debug;
 		};
-		9CD1F9D82B0B246400E10E86 /* Release */ = {
+		9C918EDB2B706FC2004AD276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.BLETestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLETest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BLETest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicTerminal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicTerminal";
 			};
 			name = Release;
 		};
-		9CD1F9DA2B0B246400E10E86 /* Debug */ = {
+		9C918EDD2B706FC2004AD276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.BLETestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BLETest;
+				TEST_TARGET_NAME = MusicTerminal;
 			};
 			name = Debug;
 		};
-		9CD1F9DB2B0B246400E10E86 /* Release */ = {
+		9C918EDE2B706FC2004AD276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.BLETestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BLETest;
+				TEST_TARGET_NAME = MusicTerminal;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CD1F9AA2B0B246400E10E86 /* Build configuration list for PBXProject "BLETest" */ = {
+		9C918EAB2B706FC1004AD276 /* Build configuration list for PBXProject "MusicTerminal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CD1F9D12B0B246400E10E86 /* Debug */,
-				9CD1F9D22B0B246400E10E86 /* Release */,
+				9C918ED42B706FC2004AD276 /* Debug */,
+				9C918ED52B706FC2004AD276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD1F9D32B0B246400E10E86 /* Build configuration list for PBXNativeTarget "BLETest" */ = {
+		9C918ED62B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CD1F9D42B0B246400E10E86 /* Debug */,
-				9CD1F9D52B0B246400E10E86 /* Release */,
+				9C918ED72B706FC2004AD276 /* Debug */,
+				9C918ED82B706FC2004AD276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD1F9D62B0B246400E10E86 /* Build configuration list for PBXNativeTarget "BLETestTests" */ = {
+		9C918ED92B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CD1F9D72B0B246400E10E86 /* Debug */,
-				9CD1F9D82B0B246400E10E86 /* Release */,
+				9C918EDA2B706FC2004AD276 /* Debug */,
+				9C918EDB2B706FC2004AD276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD1F9D92B0B246400E10E86 /* Build configuration list for PBXNativeTarget "BLETestUITests" */ = {
+		9C918EDC2B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CD1F9DA2B0B246400E10E86 /* Debug */,
-				9CD1F9DB2B0B246400E10E86 /* Release */,
+				9C918EDD2B706FC2004AD276 /* Debug */,
+				9C918EDE2B706FC2004AD276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9CD1F9A72B0B246400E10E86 /* Project object */;
+	rootObject = 9C918EA82B706FC1004AD276 /* Project object */;
 }

@@ -20,7 +20,7 @@ struct ContentView: View {
             // Directional Buttons with Arrow Shapes
             HStack {
                 Spacer()
-
+                
                 VStack {
                     Button(action: {
                         // Action for Up Button
