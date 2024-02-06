@@ -43,8 +43,8 @@ class BluetoothManager:  NSObject, ObservableObject, CBCentralManagerDelegate, C
         guard let characteristic = rx else {return false}
         guard let peripheral = device else {return false}
         guard let data = message.data(using: .utf8) else {return false}
-        
-        peripheral.writeValue(data, for: characteristic, type: .withResponse)
+        print("writing \(message)")
+        peripheral.writeValue(data, for: characteristic, type: .withoutResponse) //with response does not work
         return true
     }
     

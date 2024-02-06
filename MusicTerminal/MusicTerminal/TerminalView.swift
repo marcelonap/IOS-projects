@@ -50,6 +50,11 @@ struct TerminalView: View {
                 Button("Send") {
                     sendMessage()
                 }
+                
+                Button("Send Test"){
+                    print(bluetoothManager.device?.name)
+                   _ = bluetoothManager.writeToRx("testing, hi from app \n\r")
+                }
             }
             .padding()
         }
@@ -70,7 +75,7 @@ struct TerminalView: View {
     }
 
     private func sendMessage() {
-        let success = bluetoothManager.writeToRx(inputText)
+        let success = bluetoothManager.writeToRx("\(inputText)\r\n")
         if success {
             messages.append("Sent: \(inputText)")
             inputText = ""
