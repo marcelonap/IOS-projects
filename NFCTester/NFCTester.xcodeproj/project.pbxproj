@@ -7,66 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C918EB42B706FC1004AD276 /* MusicTerminalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EB32B706FC1004AD276 /* MusicTerminalApp.swift */; };
-		9C918EBA2B706FC2004AD276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C918EB92B706FC2004AD276 /* Assets.xcassets */; };
-		9C918EBD2B706FC2004AD276 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C918EBC2B706FC2004AD276 /* Preview Assets.xcassets */; };
-		9C918EC72B706FC2004AD276 /* MusicTerminalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EC62B706FC2004AD276 /* MusicTerminalTests.swift */; };
-		9C918ED12B706FC2004AD276 /* MusicTerminalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918ED02B706FC2004AD276 /* MusicTerminalUITests.swift */; };
-		9C918ED32B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918ED22B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift */; };
-		9C918EE02B7070C6004AD276 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EDF2B7070C6004AD276 /* InitialScreen.swift */; };
-		9C918EE32B707118004AD276 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C918EE22B707118004AD276 /* BLEManager.swift */; };
-		9C92B2752B707921004C230A /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92B2742B707921004C230A /* TerminalView.swift */; };
+		9C5028032BB7516900951FA4 /* NFCTesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5028022BB7516900951FA4 /* NFCTesterApp.swift */; };
+		9C5028052BB7516900951FA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5028042BB7516900951FA4 /* ContentView.swift */; };
+		9C5028072BB7516A00951FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5028062BB7516A00951FA4 /* Assets.xcassets */; };
+		9C50280A2BB7516A00951FA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5028092BB7516A00951FA4 /* Preview Assets.xcassets */; };
+		9C5028142BB7516A00951FA4 /* NFCTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5028132BB7516A00951FA4 /* NFCTesterTests.swift */; };
+		9C50281E2BB7516A00951FA4 /* NFCTesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50281D2BB7516A00951FA4 /* NFCTesterUITests.swift */; };
+		9C5028202BB7516A00951FA4 /* NFCTesterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50281F2BB7516A00951FA4 /* NFCTesterUITestsLaunchTests.swift */; };
+		9C50282D2BB751FC00951FA4 /* NFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50282C2BB751FC00951FA4 /* NFCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C918EC32B706FC2004AD276 /* PBXContainerItemProxy */ = {
+		9C5028102BB7516A00951FA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9C918EA82B706FC1004AD276 /* Project object */;
+			containerPortal = 9C5027F72BB7516900951FA4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C918EAF2B706FC1004AD276;
-			remoteInfo = MusicTerminal;
+			remoteGlobalIDString = 9C5027FE2BB7516900951FA4;
+			remoteInfo = NFCTester;
 		};
-		9C918ECD2B706FC2004AD276 /* PBXContainerItemProxy */ = {
+		9C50281A2BB7516A00951FA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9C918EA82B706FC1004AD276 /* Project object */;
+			containerPortal = 9C5027F72BB7516900951FA4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C918EAF2B706FC1004AD276;
-			remoteInfo = MusicTerminal;
+			remoteGlobalIDString = 9C5027FE2BB7516900951FA4;
+			remoteInfo = NFCTester;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C918EB02B706FC1004AD276 /* MusicTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C918EB32B706FC1004AD276 /* MusicTerminalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalApp.swift; sourceTree = "<group>"; };
-		9C918EB92B706FC2004AD276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C918EBC2B706FC2004AD276 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9C918EC22B706FC2004AD276 /* MusicTerminalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTerminalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C918EC62B706FC2004AD276 /* MusicTerminalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalTests.swift; sourceTree = "<group>"; };
-		9C918ECC2B706FC2004AD276 /* MusicTerminalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTerminalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C918ED02B706FC2004AD276 /* MusicTerminalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalUITests.swift; sourceTree = "<group>"; };
-		9C918ED22B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTerminalUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9C918EDF2B7070C6004AD276 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
-		9C918EE22B707118004AD276 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
-		9C918EE42B7071C5004AD276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		9C92B2742B707921004C230A /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
+		9C5027FF2BB7516900951FA4 /* NFCTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5028022BB7516900951FA4 /* NFCTesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTesterApp.swift; sourceTree = "<group>"; };
+		9C5028042BB7516900951FA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C5028062BB7516A00951FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5028092BB7516A00951FA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C50280F2BB7516A00951FA4 /* NFCTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5028132BB7516A00951FA4 /* NFCTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTesterTests.swift; sourceTree = "<group>"; };
+		9C5028192BB7516A00951FA4 /* NFCTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C50281D2BB7516A00951FA4 /* NFCTesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTesterUITests.swift; sourceTree = "<group>"; };
+		9C50281F2BB7516A00951FA4 /* NFCTesterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTesterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C50282C2BB751FC00951FA4 /* NFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCManager.swift; sourceTree = "<group>"; };
+		9C50282E2BB7537700951FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9C50282F2BB7544400951FA4 /* NFCTester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCTester.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C918EAD2B706FC1004AD276 /* Frameworks */ = {
+		9C5027FC2BB7516900951FA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C918EBF2B706FC2004AD276 /* Frameworks */ = {
+		9C50280C2BB7516A00951FA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C918EC92B706FC2004AD276 /* Frameworks */ = {
+		9C5028162BB7516A00951FA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,153 +75,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C918EA72B706FC1004AD276 = {
+		9C5027F62BB7516900951FA4 = {
 			isa = PBXGroup;
 			children = (
-				9C918EB22B706FC1004AD276 /* MusicTerminal */,
-				9C918EC52B706FC2004AD276 /* MusicTerminalTests */,
-				9C918ECF2B706FC2004AD276 /* MusicTerminalUITests */,
-				9C918EB12B706FC1004AD276 /* Products */,
+				9C5028012BB7516900951FA4 /* NFCTester */,
+				9C5028122BB7516A00951FA4 /* NFCTesterTests */,
+				9C50281C2BB7516A00951FA4 /* NFCTesterUITests */,
+				9C5028002BB7516900951FA4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9C918EB12B706FC1004AD276 /* Products */ = {
+		9C5028002BB7516900951FA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C918EB02B706FC1004AD276 /* MusicTerminal.app */,
-				9C918EC22B706FC2004AD276 /* MusicTerminalTests.xctest */,
-				9C918ECC2B706FC2004AD276 /* MusicTerminalUITests.xctest */,
+				9C5027FF2BB7516900951FA4 /* NFCTester.app */,
+				9C50280F2BB7516A00951FA4 /* NFCTesterTests.xctest */,
+				9C5028192BB7516A00951FA4 /* NFCTesterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C918EB22B706FC1004AD276 /* MusicTerminal */ = {
+		9C5028012BB7516900951FA4 /* NFCTester */ = {
 			isa = PBXGroup;
 			children = (
-				9C918EE42B7071C5004AD276 /* Info.plist */,
-				9C918EE12B70710A004AD276 /* Bluetooth */,
-				9C918EDF2B7070C6004AD276 /* InitialScreen.swift */,
-				9C92B2742B707921004C230A /* TerminalView.swift */,
-				9C918EB32B706FC1004AD276 /* MusicTerminalApp.swift */,
-				9C918EB92B706FC2004AD276 /* Assets.xcassets */,
-				9C918EBB2B706FC2004AD276 /* Preview Content */,
+				9C50282F2BB7544400951FA4 /* NFCTester.entitlements */,
+				9C50282E2BB7537700951FA4 /* Info.plist */,
+				9C5028022BB7516900951FA4 /* NFCTesterApp.swift */,
+				9C5028042BB7516900951FA4 /* ContentView.swift */,
+				9C5028062BB7516A00951FA4 /* Assets.xcassets */,
+				9C5028082BB7516A00951FA4 /* Preview Content */,
+				9C50282C2BB751FC00951FA4 /* NFCManager.swift */,
 			);
-			path = MusicTerminal;
+			path = NFCTester;
 			sourceTree = "<group>";
 		};
-		9C918EBB2B706FC2004AD276 /* Preview Content */ = {
+		9C5028082BB7516A00951FA4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9C918EBC2B706FC2004AD276 /* Preview Assets.xcassets */,
+				9C5028092BB7516A00951FA4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9C918EC52B706FC2004AD276 /* MusicTerminalTests */ = {
+		9C5028122BB7516A00951FA4 /* NFCTesterTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C918EC62B706FC2004AD276 /* MusicTerminalTests.swift */,
+				9C5028132BB7516A00951FA4 /* NFCTesterTests.swift */,
 			);
-			path = MusicTerminalTests;
+			path = NFCTesterTests;
 			sourceTree = "<group>";
 		};
-		9C918ECF2B706FC2004AD276 /* MusicTerminalUITests */ = {
+		9C50281C2BB7516A00951FA4 /* NFCTesterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9C918ED02B706FC2004AD276 /* MusicTerminalUITests.swift */,
-				9C918ED22B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift */,
+				9C50281D2BB7516A00951FA4 /* NFCTesterUITests.swift */,
+				9C50281F2BB7516A00951FA4 /* NFCTesterUITestsLaunchTests.swift */,
 			);
-			path = MusicTerminalUITests;
-			sourceTree = "<group>";
-		};
-		9C918EE12B70710A004AD276 /* Bluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				9C918EE22B707118004AD276 /* BLEManager.swift */,
-			);
-			path = Bluetooth;
+			path = NFCTesterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C918EAF2B706FC1004AD276 /* MusicTerminal */ = {
+		9C5027FE2BB7516900951FA4 /* NFCTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C918ED62B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminal" */;
+			buildConfigurationList = 9C5028232BB7516A00951FA4 /* Build configuration list for PBXNativeTarget "NFCTester" */;
 			buildPhases = (
-				9C918EAC2B706FC1004AD276 /* Sources */,
-				9C918EAD2B706FC1004AD276 /* Frameworks */,
-				9C918EAE2B706FC1004AD276 /* Resources */,
+				9C5027FB2BB7516900951FA4 /* Sources */,
+				9C5027FC2BB7516900951FA4 /* Frameworks */,
+				9C5027FD2BB7516900951FA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MusicTerminal;
-			productName = MusicTerminal;
-			productReference = 9C918EB02B706FC1004AD276 /* MusicTerminal.app */;
+			name = NFCTester;
+			productName = NFCTester;
+			productReference = 9C5027FF2BB7516900951FA4 /* NFCTester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9C918EC12B706FC2004AD276 /* MusicTerminalTests */ = {
+		9C50280E2BB7516A00951FA4 /* NFCTesterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C918ED92B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalTests" */;
+			buildConfigurationList = 9C5028262BB7516A00951FA4 /* Build configuration list for PBXNativeTarget "NFCTesterTests" */;
 			buildPhases = (
-				9C918EBE2B706FC2004AD276 /* Sources */,
-				9C918EBF2B706FC2004AD276 /* Frameworks */,
-				9C918EC02B706FC2004AD276 /* Resources */,
+				9C50280B2BB7516A00951FA4 /* Sources */,
+				9C50280C2BB7516A00951FA4 /* Frameworks */,
+				9C50280D2BB7516A00951FA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C918EC42B706FC2004AD276 /* PBXTargetDependency */,
+				9C5028112BB7516A00951FA4 /* PBXTargetDependency */,
 			);
-			name = MusicTerminalTests;
-			productName = MusicTerminalTests;
-			productReference = 9C918EC22B706FC2004AD276 /* MusicTerminalTests.xctest */;
+			name = NFCTesterTests;
+			productName = NFCTesterTests;
+			productReference = 9C50280F2BB7516A00951FA4 /* NFCTesterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9C918ECB2B706FC2004AD276 /* MusicTerminalUITests */ = {
+		9C5028182BB7516A00951FA4 /* NFCTesterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C918EDC2B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalUITests" */;
+			buildConfigurationList = 9C5028292BB7516A00951FA4 /* Build configuration list for PBXNativeTarget "NFCTesterUITests" */;
 			buildPhases = (
-				9C918EC82B706FC2004AD276 /* Sources */,
-				9C918EC92B706FC2004AD276 /* Frameworks */,
-				9C918ECA2B706FC2004AD276 /* Resources */,
+				9C5028152BB7516A00951FA4 /* Sources */,
+				9C5028162BB7516A00951FA4 /* Frameworks */,
+				9C5028172BB7516A00951FA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C918ECE2B706FC2004AD276 /* PBXTargetDependency */,
+				9C50281B2BB7516A00951FA4 /* PBXTargetDependency */,
 			);
-			name = MusicTerminalUITests;
-			productName = MusicTerminalUITests;
-			productReference = 9C918ECC2B706FC2004AD276 /* MusicTerminalUITests.xctest */;
+			name = NFCTesterUITests;
+			productName = NFCTesterUITests;
+			productReference = 9C5028192BB7516A00951FA4 /* NFCTesterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9C918EA82B706FC1004AD276 /* Project object */ = {
+		9C5027F72BB7516900951FA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					9C918EAF2B706FC1004AD276 = {
+					9C5027FE2BB7516900951FA4 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					9C918EC12B706FC2004AD276 = {
+					9C50280E2BB7516A00951FA4 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 9C918EAF2B706FC1004AD276;
+						TestTargetID = 9C5027FE2BB7516900951FA4;
 					};
-					9C918ECB2B706FC2004AD276 = {
+					9C5028182BB7516A00951FA4 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 9C918EAF2B706FC1004AD276;
+						TestTargetID = 9C5027FE2BB7516900951FA4;
 					};
 				};
 			};
-			buildConfigurationList = 9C918EAB2B706FC1004AD276 /* Build configuration list for PBXProject "MusicTerminal" */;
+			buildConfigurationList = 9C5027FA2BB7516900951FA4 /* Build configuration list for PBXProject "NFCTester" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,36 +221,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 9C918EA72B706FC1004AD276;
-			productRefGroup = 9C918EB12B706FC1004AD276 /* Products */;
+			mainGroup = 9C5027F62BB7516900951FA4;
+			productRefGroup = 9C5028002BB7516900951FA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C918EAF2B706FC1004AD276 /* MusicTerminal */,
-				9C918EC12B706FC2004AD276 /* MusicTerminalTests */,
-				9C918ECB2B706FC2004AD276 /* MusicTerminalUITests */,
+				9C5027FE2BB7516900951FA4 /* NFCTester */,
+				9C50280E2BB7516A00951FA4 /* NFCTesterTests */,
+				9C5028182BB7516A00951FA4 /* NFCTesterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C918EAE2B706FC1004AD276 /* Resources */ = {
+		9C5027FD2BB7516900951FA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C918EBD2B706FC2004AD276 /* Preview Assets.xcassets in Resources */,
-				9C918EBA2B706FC2004AD276 /* Assets.xcassets in Resources */,
+				9C50280A2BB7516A00951FA4 /* Preview Assets.xcassets in Resources */,
+				9C5028072BB7516A00951FA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C918EC02B706FC2004AD276 /* Resources */ = {
+		9C50280D2BB7516A00951FA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C918ECA2B706FC2004AD276 /* Resources */ = {
+		9C5028172BB7516A00951FA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,51 +260,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C918EAC2B706FC1004AD276 /* Sources */ = {
+		9C5027FB2BB7516900951FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C92B2752B707921004C230A /* TerminalView.swift in Sources */,
-				9C918EE02B7070C6004AD276 /* InitialScreen.swift in Sources */,
-				9C918EE32B707118004AD276 /* BLEManager.swift in Sources */,
-				9C918EB42B706FC1004AD276 /* MusicTerminalApp.swift in Sources */,
+				9C50282D2BB751FC00951FA4 /* NFCManager.swift in Sources */,
+				9C5028052BB7516900951FA4 /* ContentView.swift in Sources */,
+				9C5028032BB7516900951FA4 /* NFCTesterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C918EBE2B706FC2004AD276 /* Sources */ = {
+		9C50280B2BB7516A00951FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C918EC72B706FC2004AD276 /* MusicTerminalTests.swift in Sources */,
+				9C5028142BB7516A00951FA4 /* NFCTesterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C918EC82B706FC2004AD276 /* Sources */ = {
+		9C5028152BB7516A00951FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C918ED32B706FC2004AD276 /* MusicTerminalUITestsLaunchTests.swift in Sources */,
-				9C918ED12B706FC2004AD276 /* MusicTerminalUITests.swift in Sources */,
+				9C50281E2BB7516A00951FA4 /* NFCTesterUITests.swift in Sources */,
+				9C5028202BB7516A00951FA4 /* NFCTesterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9C918EC42B706FC2004AD276 /* PBXTargetDependency */ = {
+		9C5028112BB7516A00951FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C918EAF2B706FC1004AD276 /* MusicTerminal */;
-			targetProxy = 9C918EC32B706FC2004AD276 /* PBXContainerItemProxy */;
+			target = 9C5027FE2BB7516900951FA4 /* NFCTester */;
+			targetProxy = 9C5028102BB7516A00951FA4 /* PBXContainerItemProxy */;
 		};
-		9C918ECE2B706FC2004AD276 /* PBXTargetDependency */ = {
+		9C50281B2BB7516A00951FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C918EAF2B706FC1004AD276 /* MusicTerminal */;
-			targetProxy = 9C918ECD2B706FC2004AD276 /* PBXContainerItemProxy */;
+			target = 9C5027FE2BB7516900951FA4 /* NFCTester */;
+			targetProxy = 9C50281A2BB7516A00951FA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9C918ED42B706FC2004AD276 /* Debug */ = {
+		9C5028212BB7516A00951FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		9C918ED52B706FC2004AD276 /* Release */ = {
+		9C5028222BB7516A00951FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,31 +422,32 @@
 			};
 			name = Release;
 		};
-		9C918ED72B706FC2004AD276 /* Debug */ = {
+		9C5028242BB7516A00951FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCTester/NFCTester.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MusicTerminal/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NFCTester/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MusicTerminal/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Needs bluetooth access to interface with device";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Needs to connect and interact with BLE peripheral";
+				INFOPLIST_FILE = NFCTester/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app requires access to your NFC reader to read tags.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.NFCTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,31 +455,32 @@
 			};
 			name = Debug;
 		};
-		9C918ED82B706FC2004AD276 /* Release */ = {
+		9C5028252BB7516A00951FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCTester/NFCTester.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MusicTerminal/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NFCTester/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MusicTerminal/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Needs bluetooth access to interface with device";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Needs to connect and interact with BLE peripheral";
+				INFOPLIST_FILE = NFCTester/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app requires access to your NFC reader to read tags.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.NFCTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -496,7 +488,7 @@
 			};
 			name = Release;
 		};
-		9C918EDA2B706FC2004AD276 /* Debug */ = {
+		9C5028272BB7516A00951FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -507,16 +499,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.NFCTesterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicTerminal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicTerminal";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCTester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFCTester";
 			};
 			name = Debug;
 		};
-		9C918EDB2B706FC2004AD276 /* Release */ = {
+		9C5028282BB7516A00951FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,16 +519,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.NFCTesterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicTerminal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicTerminal";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCTester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFCTester";
 			};
 			name = Release;
 		};
-		9C918EDD2B706FC2004AD276 /* Debug */ = {
+		9C50282A2BB7516A00951FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,16 +537,16 @@
 				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.NFCTesterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MusicTerminal;
+				TEST_TARGET_NAME = NFCTester;
 			};
 			name = Debug;
 		};
-		9C918EDE2B706FC2004AD276 /* Release */ = {
+		9C50282B2BB7516A00951FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -563,55 +555,55 @@
 				DEVELOPMENT_TEAM = 7QA45VJU6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.MusicTerminalUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.NFCTesterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MusicTerminal;
+				TEST_TARGET_NAME = NFCTester;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C918EAB2B706FC1004AD276 /* Build configuration list for PBXProject "MusicTerminal" */ = {
+		9C5027FA2BB7516900951FA4 /* Build configuration list for PBXProject "NFCTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C918ED42B706FC2004AD276 /* Debug */,
-				9C918ED52B706FC2004AD276 /* Release */,
+				9C5028212BB7516A00951FA4 /* Debug */,
+				9C5028222BB7516A00951FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C918ED62B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminal" */ = {
+		9C5028232BB7516A00951FA4 /* Build configuration list for PBXNativeTarget "NFCTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C918ED72B706FC2004AD276 /* Debug */,
-				9C918ED82B706FC2004AD276 /* Release */,
+				9C5028242BB7516A00951FA4 /* Debug */,
+				9C5028252BB7516A00951FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C918ED92B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalTests" */ = {
+		9C5028262BB7516A00951FA4 /* Build configuration list for PBXNativeTarget "NFCTesterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C918EDA2B706FC2004AD276 /* Debug */,
-				9C918EDB2B706FC2004AD276 /* Release */,
+				9C5028272BB7516A00951FA4 /* Debug */,
+				9C5028282BB7516A00951FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C918EDC2B706FC2004AD276 /* Build configuration list for PBXNativeTarget "MusicTerminalUITests" */ = {
+		9C5028292BB7516A00951FA4 /* Build configuration list for PBXNativeTarget "NFCTesterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C918EDD2B706FC2004AD276 /* Debug */,
-				9C918EDE2B706FC2004AD276 /* Release */,
+				9C50282A2BB7516A00951FA4 /* Debug */,
+				9C50282B2BB7516A00951FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9C918EA82B706FC1004AD276 /* Project object */;
+	rootObject = 9C5027F72BB7516900951FA4 /* Project object */;
 }

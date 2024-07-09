@@ -1,13 +1,13 @@
 //
-//  MusicTerminalUITests.swift
-//  MusicTerminalUITests
+//  NFCTesterUITests.swift
+//  NFCTesterUITests
 //
-//  Created by Marcelo Napoleao Sampaio on 2024-02-04.
+//  Created by Marcelo Napoleao Sampaio on 2024-03-29.
 //
 
 import XCTest
 
-final class MusicTerminalUITests: XCTestCase {
+final class NFCTesterUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

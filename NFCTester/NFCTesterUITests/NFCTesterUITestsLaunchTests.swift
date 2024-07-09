@@ -1,13 +1,13 @@
 //
-//  MusicTerminalUITestsLaunchTests.swift
-//  MusicTerminalUITests
+//  NFCTesterUITestsLaunchTests.swift
+//  NFCTesterUITests
 //
-//  Created by Marcelo Napoleao Sampaio on 2024-02-04.
+//  Created by Marcelo Napoleao Sampaio on 2024-03-29.
 //
 
 import XCTest
 
-final class MusicTerminalUITestsLaunchTests: XCTestCase {
+final class NFCTesterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

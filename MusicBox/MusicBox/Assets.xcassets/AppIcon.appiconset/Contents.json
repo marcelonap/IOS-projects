@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2024-04-10 15.38.54 - Design a 1024x1024 app icon that features a simple yet vibrant representation of a MIDI launchpad with 5 pads. The dominant color scheme should be var.jpeg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
